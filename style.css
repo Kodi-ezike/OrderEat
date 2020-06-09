@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-image:url(app-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+    
+}
+header{
+    background-color: orange;
+    padding: 1rem 0;
+}
+
+h1{
+    padding: 0 3rem;
+    color: rgb(27, 26, 26);
+    text-shadow: 1px 1px 1px gray;
+    font-family: 'Goudy Bookletter 1911', serif;
+    
+}
+p{
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    text-shadow: -1px -1px 1px gray;
+    font-family: 'Raleway', sans-serif;
+}
+span{
+    font-size: 28px;
+    color: orange;
+}
+.pic{
+    display: none;
+}
+.text{
+    width: 50%;
+    margin-top: 10rem;
+    margin-left: 3rem;
+    
+}
+
+.image{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    
+}
+.desktop-image{
+    width: 100%;
+    height: 100%;
+}
+.app-img{
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: -4rem;
+}
+@media screen and (max-width:770px){ 
+.pic{
+    display: block;
+}
+.container{
+    background-image: url(mobile-app-background.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+}
+h1{
+    padding: 0 1rem;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.mobile-image{
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+}
+.image{
+    display: none;
+}
+.text{
+    width: 100%;
+    margin:3rem 1.5rem;
+}
+.app{
+    text-align: center;
+}
+.app-img{
+    width: 120px;
+    height: 200px;
+    margin-right: 10px;
+    margin-top: -4rem;
+}
+
+
+
+}
